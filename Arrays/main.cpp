@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -6,7 +6,7 @@ void main()
 	setlocale(LC_ALL, "Russian");
 	const int n = 5;
 	int arr[n] = { 3, 5, 8 };
-	cout << "Ââåäèòå ýëåìåíòû ìàññèâà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
 	for (int i = 0; i < n; i++)
 	{
 		cin >> arr[i];
@@ -22,8 +22,8 @@ void main()
 	{
 		sum += arr[i];
 	}
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << sum << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << (double)sum / n << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << sum << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << (double)sum / n << endl;
 	int min, max;
 	min = max = arr[0];
 	for (int i = 0; i < n; i++)
@@ -31,8 +31,8 @@ void main()
 		if (arr[i] < min)min = arr[i];
 		if (arr[i] > max)max = arr[i];
 	}
-	cout << "Ìèíèìàëüíîå çíà÷åíèå â ìàññèâå: " << min << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå â ìàññèâå: " << max << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << min << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << max << endl;
 
 
 }
