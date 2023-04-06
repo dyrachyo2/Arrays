@@ -139,7 +139,7 @@ void main()
 	FillRand(d_arr_2, ROWS, COLS);
 
 
-	cout << "Массив " << endl;
+	cout << "Массив: " << endl;
 	Print(i_arr_2, ROWS, COLS);
 	Print(d_arr_2, ROWS, COLS);
 
@@ -156,7 +156,7 @@ void main()
 	cout << "Максимальное целых элементов: " << maxValueIn(i_arr_2, ROWS, COLS) << endl;
 	cout << "Максимальное арифметическое вещественных элементов: " << maxValueIn(d_arr_2, ROWS, COLS) << endl;
 
-	cout << "Сдвиг" << endl;
+	cout << "Сдвиг:" << endl;
 	shiftLeft(i_arr_2, ROWS, COLS, number_of_shifts);
 	Print(i_arr_2, ROWS, COLS); cout << endl;
 	shiftRicht(i_arr_2, ROWS, COLS, number_of_shifts);
@@ -168,18 +168,18 @@ void main()
 	Print(d_arr_2, ROWS, COLS); cout << endl;
 
 
-	cout << "Сортировка" << endl;
+	cout << "Сортировка:" << endl;
 	Sort(i_arr_2, ROWS, COLS);
 	Print(i_arr_2, ROWS, COLS); cout << endl;
 
 	Sort(d_arr_2, ROWS, COLS);
 	Print(d_arr_2, ROWS, COLS); cout << endl;
 
-	cout << "Повторы в массиве: " << endl;
+	cout << "Повторы: " << endl;
 	Search(i_arr_2, ROWS, COLS); cout << endl;
 	Search(d_arr_2, ROWS, COLS); cout << endl;
 
-	cout << "Уникальность " << endl;
+	cout << "Уникальность: " << endl;
 	UniqueRand(i_arr_2, ROWS, COLS); cout << endl;
 	Print(i_arr_2, ROWS, COLS); cout << endl;
 
