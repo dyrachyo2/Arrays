@@ -144,17 +144,17 @@ void main()
 	Print(d_arr_2, ROWS, COLS);
 
 
-	cout << "Сумма целых элеметов: " << Sum(i_arr_2, ROWS, COLS) << endl;
-	cout << "Сумма вещественных элеметов: " << Sum(d_arr_2, ROWS, COLS) << endl;
+	cout << "Сумма  элементов: " << Sum(i_arr_2, ROWS, COLS) << endl;
+	cout << "Сумма дробных элементов: " << Sum(d_arr_2, ROWS, COLS) << endl;
 
-	cout << "Среднее арифметическое целых элеметво: " << Avg(i_arr_2, ROWS, COLS) << endl;
-	cout << "Среднее арифметическое вещественных элеметво: " << Avg(d_arr_2, ROWS, COLS) << endl;
+	cout << "Среднее арифметическое элементов: " << Avg(i_arr_2, ROWS, COLS) << endl;
+	cout << "Среднее арифметическое дробных элементов: " << Avg(d_arr_2, ROWS, COLS) << endl;
 
 	cout << "Минимальное целых элементов : " << minValueIn(i_arr_2, ROWS, COLS) << endl;
-	cout << "Минимальное арифметическое вещественных элементов : " << minValueIn(d_arr_2, ROWS, COLS) << endl;
+	cout << "Минимальное арифметическое дробных элементов : " << minValueIn(d_arr_2, ROWS, COLS) << endl;
 
 	cout << "Максимальное целых элементов: " << maxValueIn(i_arr_2, ROWS, COLS) << endl;
-	cout << "Максимальное арифметическое вещественных элементов: " << maxValueIn(d_arr_2, ROWS, COLS) << endl;
+	cout << "Максимальное арифметическое дробных элементов: " << maxValueIn(d_arr_2, ROWS, COLS) << endl;
 
 	cout << "Сдвиг:" << endl;
 	shiftLeft(i_arr_2, ROWS, COLS, number_of_shifts);
@@ -175,7 +175,7 @@ void main()
 	Sort(d_arr_2, ROWS, COLS);
 	Print(d_arr_2, ROWS, COLS); cout << endl;
 
-	cout << "Повторы: " << endl;
+	cout << "Поиск повторов: " << endl;
 	Search(i_arr_2, ROWS, COLS); cout << endl;
 	Search(d_arr_2, ROWS, COLS); cout << endl;
 
