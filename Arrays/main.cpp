@@ -613,7 +613,7 @@ void shiftRicht(int arr[], const int n, int number_of_shifts)
 		}
 		arr[0] = buffer;
 	}
-	/*shiftLeft(arr, n, n - number_of_shifts);*/
+	shiftLeft(arr, n, n - number_of_shifts);
 }
 void shiftRicht(double arr[], const int n, int number_of_shifts)
 {
